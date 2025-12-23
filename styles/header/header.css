@@ -3,6 +3,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 3rem;
+	height: 500px;
 }
 
 @media (min-width: 576px){
@@ -11,7 +12,7 @@
 	}
 }
 
-@media (min-width:1200px ){
+@media (min-width:1200px){
 	.header{
 		height: 100vh;
 	}

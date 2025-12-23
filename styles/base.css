@@ -62,3 +62,35 @@ body{
 		font-weight: 600;
 	}
 }
+
+/*Utilidades*/
+[class$="__container"]{
+	width: 100%;
+	max-width: 120rem;
+	padding: 1rem;
+	margin:0 auto;
+}
+
+[class$="__title2"]{
+	text-align: center;
+	font-size: 3rem;
+	padding: 0 1rem;
+
+}
+
+@media (min-height: 992px){
+	[class$="__title2"]{ 
+	font-size: 4.5rem; 
+
+}
+}
+
+[class$="__title2-color"]{ 
+	color: var(--color-main);
+}
+[class$="__desc1"]{
+	text-align: center;
+	color: var(--color-600);
+	padding: 0 1rem;
+
+}
