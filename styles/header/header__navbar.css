@@ -1,0 +1,62 @@
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	color: var(--color-950);
+	transition: 0.3s ease;
+}
+
+.logo:hover{
+	color: var(--color-main);
+}
+
+.logo__icon{
+	font-size: 6rem;
+
+}
+
+.logo__text{
+	font-size: 3rem;
+  	font-family: "Rubik Doodle Shadow", system-ui;
+	font-weight: 900;
+}
+
+.menu-btn{
+display: inline-block;
+cursor: pointer;
+}
+
+.menu-btn__line{
+display: block;
+width: 2rem;
+height: 0.3rem;
+background-color: var(--color-950);
+margin: 0.5rem auto;
+transition: all 0.3s ease;
+border-radius: 0.5rem;
+}
+
+.menu{
+	display: none;
+}
+
+#menu-toggle:checked~.menu{
+	display: grid;
+	gap: 0.5rem;
+	align-content: center;
+	background-color: var(--color-600);
+	position: absolute;
+	top: 6.5rem;
+	width: 100%;
+	left: 0;
+	padding: 2rem 1rem;
+	height: 89vh;
+	box-shadow: 0 0 0.5rem var(--color-500);
+
+}
